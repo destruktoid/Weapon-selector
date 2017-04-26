@@ -5,6 +5,7 @@ _ret = [];
 _retW = [];
 _retO = [];
 switch (_class) do {
+    //infantry
     case "SOR_Actual_D": {
         _retW = [
             INF_STD_D_W
@@ -238,6 +239,133 @@ switch (_class) do {
     case "SOR_Teamleader_W": {
         _retW = [
             INF_STD_W_W
+        ];
+        
+        _retO = [
+            INF_STD_W_O
+        ];
+    };
+    
+    //mech
+    case "SOR_MechCommand_D" {
+        _retW = [
+        ];
+        
+        _retO = [
+            INF_STD_D_O
+        ];
+    };
+    
+    case "SOR_MechCrew_D" {
+        _retW = [
+        ];
+        
+        _retO = [
+            INF_STD_D_O
+        ];
+    };
+    
+    case "SOR_MechOperator_D" {
+        _retW = [
+        ];
+        
+        _retO = [
+            INF_STD_D_O
+        ];
+    };
+    
+    case "SOR_MechCrewCommander_D" {
+        _retW = [
+        ];
+        
+        _retO = [
+            INF_STD_D_O
+        ];
+    };
+    
+    case "SOR_MechDriver_D" {
+        _retW = [
+        ];
+        
+        _retO = [
+            INF_STD_D_O
+        ];
+    };
+    
+    case "SOR_Engineer_Teamleader_D" {
+        _retW = [
+        ];
+        
+        _retO = [
+            INF_STD_D_O
+        ];
+    };
+    
+    case "SOR_Engineer_D" {
+        _retW = [
+        ];
+        
+        _retO = [
+            INF_STD_D_O
+        ];
+    };
+    
+    case "SOR_MechCommand_W" {
+        _retW = [
+        ];
+        
+        _retO = [
+            INF_STD_W_O
+        ];
+    };
+    
+    case "SOR_MechCrew_W" {
+        _retW = [
+        ];
+        
+        _retO = [
+            INF_STD_W_O
+        ];
+    };
+    
+    case "SOR_MechOperator_W" {
+        _retW = [
+        ];
+        
+        _retO = [
+            INF_STD_W_O
+        ];
+    };
+    
+    case "SOR_MechCrewCommander_W" {
+        _retW = [
+        ];
+        
+        _retO = [
+            INF_STD_W_O
+        ];
+    };
+    
+    case "SOR_MechDriver_W" {
+        _retW = [
+        ];
+        
+        _retO = [
+            INF_STD_W_O
+        ];
+    };
+    
+    case "SOR_Engineer_Teamleader_W" {
+        _retW = [
+        ];
+        
+        _retO = [
+            INF_STD_W_O
+        ];
+    };
+    
+    case "SOR_Engineer_W" {
+        _retW = [
         ];
         
         _retO = [
