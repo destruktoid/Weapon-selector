@@ -247,7 +247,7 @@ switch (_class) do {
     };
     
     //mech
-    case "SOR_MechCommand_D" {
+    case "SOR_MechCommand_D": {
         _retW = [
         ];
         
@@ -256,7 +256,7 @@ switch (_class) do {
         ];
     };
     
-    case "SOR_MechCrew_D" {
+    case "SOR_MechCrew_D": {
         _retW = [
         ];
         
@@ -265,7 +265,7 @@ switch (_class) do {
         ];
     };
     
-    case "SOR_MechOperator_D" {
+    case "SOR_MechOperator_D": {
         _retW = [
         ];
         
@@ -274,7 +274,7 @@ switch (_class) do {
         ];
     };
     
-    case "SOR_MechCrewCommander_D" {
+    case "SOR_MechCrewCommander_D": {
         _retW = [
         ];
         
@@ -283,7 +283,7 @@ switch (_class) do {
         ];
     };
     
-    case "SOR_MechDriver_D" {
+    case "SOR_MechDriver_D": {
         _retW = [
         ];
         
@@ -292,7 +292,7 @@ switch (_class) do {
         ];
     };
     
-    case "SOR_Engineer_Teamleader_D" {
+    case "SOR_Engineer_Teamleader_D": {
         _retW = [
         ];
         
@@ -301,7 +301,7 @@ switch (_class) do {
         ];
     };
     
-    case "SOR_Engineer_D" {
+    case "SOR_Engineer_D": {
         _retW = [
         ];
         
@@ -310,7 +310,7 @@ switch (_class) do {
         ];
     };
     
-    case "SOR_MechCommand_W" {
+    case "SOR_MechCommand_W": {
         _retW = [
         ];
         
@@ -319,7 +319,7 @@ switch (_class) do {
         ];
     };
     
-    case "SOR_MechCrew_W" {
+    case "SOR_MechCrew_W": {
         _retW = [
         ];
         
@@ -328,7 +328,7 @@ switch (_class) do {
         ];
     };
     
-    case "SOR_MechOperator_W" {
+    case "SOR_MechOperator_W": {
         _retW = [
         ];
         
@@ -337,7 +337,7 @@ switch (_class) do {
         ];
     };
     
-    case "SOR_MechCrewCommander_W" {
+    case "SOR_MechCrewCommander_W": {
         _retW = [
         ];
         
@@ -346,7 +346,7 @@ switch (_class) do {
         ];
     };
     
-    case "SOR_MechDriver_W" {
+    case "SOR_MechDriver_W": {
         _retW = [
         ];
         
@@ -355,7 +355,7 @@ switch (_class) do {
         ];
     };
     
-    case "SOR_Engineer_Teamleader_W" {
+    case "SOR_Engineer_Teamleader_W": {
         _retW = [
         ];
         
@@ -364,7 +364,7 @@ switch (_class) do {
         ];
     };
     
-    case "SOR_Engineer_W" {
+    case "SOR_Engineer_W": {
         _retW = [
         ];
         

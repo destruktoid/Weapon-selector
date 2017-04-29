@@ -29,8 +29,16 @@ _optics = [(typeOf player),"o"] call DEST_fnc_getWeapons;
     };
 } foreach _optics;
 
+if (count (entities "DEST_loadoutSup") > 0) then {
+    _slcrCheck ctrlEnable false;
+};
+
 if (((primaryweaponitems player) select 0) != "") then {
     _slcrCheck cbSetChecked true;
+};
+
+if (count (entities "DEST_loadoutNVG") > 0) then {
+    _nvgCheck ctrlEnable false;
 };
 
 if ((hmd player) != "") then {
