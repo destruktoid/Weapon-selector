@@ -249,6 +249,7 @@ switch (_class) do {
     //mech
     case "SOR_MechCommand_D": {
         _retW = [
+            INF_STD_D_W
         ];
         
         _retO = [
@@ -258,6 +259,7 @@ switch (_class) do {
     
     case "SOR_MechCrew_D": {
         _retW = [
+            INF_STD_D_W
         ];
         
         _retO = [
@@ -267,6 +269,7 @@ switch (_class) do {
     
     case "SOR_MechOperator_D": {
         _retW = [
+            INF_STD_D_W
         ];
         
         _retO = [
@@ -276,6 +279,7 @@ switch (_class) do {
     
     case "SOR_MechCrewCommander_D": {
         _retW = [
+            INF_STD_D_W
         ];
         
         _retO = [
@@ -285,6 +289,7 @@ switch (_class) do {
     
     case "SOR_MechDriver_D": {
         _retW = [
+            INF_STD_D_W
         ];
         
         _retO = [
@@ -294,6 +299,7 @@ switch (_class) do {
     
     case "SOR_Engineer_Teamleader_D": {
         _retW = [
+            INF_STD_D_W
         ];
         
         _retO = [
@@ -303,6 +309,7 @@ switch (_class) do {
     
     case "SOR_Engineer_D": {
         _retW = [
+            INF_STD_D_W
         ];
         
         _retO = [
@@ -312,6 +319,7 @@ switch (_class) do {
     
     case "SOR_MechCommand_W": {
         _retW = [
+            INF_STD_W_W
         ];
         
         _retO = [
@@ -321,6 +329,7 @@ switch (_class) do {
     
     case "SOR_MechCrew_W": {
         _retW = [
+            INF_STD_W_W
         ];
         
         _retO = [
@@ -330,6 +339,7 @@ switch (_class) do {
     
     case "SOR_MechOperator_W": {
         _retW = [
+            INF_STD_W_W
         ];
         
         _retO = [
@@ -339,6 +349,7 @@ switch (_class) do {
     
     case "SOR_MechCrewCommander_W": {
         _retW = [
+            INF_STD_W_W
         ];
         
         _retO = [
@@ -348,6 +359,7 @@ switch (_class) do {
     
     case "SOR_MechDriver_W": {
         _retW = [
+            INF_STD_W_W
         ];
         
         _retO = [
@@ -357,6 +369,7 @@ switch (_class) do {
     
     case "SOR_Engineer_Teamleader_W": {
         _retW = [
+            INF_STD_W_W
         ];
         
         _retO = [
@@ -366,6 +379,7 @@ switch (_class) do {
     
     case "SOR_Engineer_W": {
         _retW = [
+            INF_STD_W_W
         ];
         
         _retO = [
