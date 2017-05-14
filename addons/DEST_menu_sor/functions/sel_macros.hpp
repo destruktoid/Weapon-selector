@@ -61,9 +61,9 @@
             ["M4A1 M203 Woodland","rhs_weap_m4a1_blockII_M203_wd"],\
             ["MK18 Black","rhs_weap_mk18_m320"]
             
-#define INF_249_W ["M249 SPW","160_weap_inf_m249"]
+#define INF_249_W ["M249 SPW","160_weap_inf_AR1"]
 
-#define INF_240_W ["M240B","160_weap_inf_m240"]
+#define INF_240_W ["M240B","160_weap_inf_AR2"]
 
 #define INF_AR_O ["HOLO Sand","optic_Holosight"],\
             ["CCO","rhsusf_acc_compm4"],\
