@@ -1,22 +1,17 @@
 //macro name format: regiment_name_variant_type
 
 #define INF_STD_D_W ["HK416 Black","160_weap_inf_std"],\
-            ["HK416 Desert","arifle_SPAR_01_snd_F"],\
-            ["M16A4 Black","rhs_weap_m16a4"],\
-            ["M4A1 Black","rhs_weap_m4"],\
-            ["M4A1 Desert","rhs_weap_m4a1_blockII_d"],\
-            ["MK18 Desert","rhs_weap_mk18_d"],\
-            ["MK18 Black","rhs_weap_mk18_KAC_bk"],\
-            ["M27 IAR","rhs_weap_m27iar"]
+            ["M4 Black","SMA_M4afg"],\
+            ["M4 Desert","SMA_M4afg_Tan"],\
+            ["MK18 Desert","SMA_MK18afgTAN"],\
+            ["MK18 Black","SMA_MK18afg"]
             
 #define INF_STD_W_W ["HK416 Black","160_weap_inf_std"],\
-            ["HK416 Woodland","arifle_SPAR_01_khk_F"],\
-            ["M16A4 Black","rhs_weap_m16a4"],\
-            ["M4A1 Black","rhs_weap_m4"],\
-            ["M4A1 Woodland","rhs_weap_m4a1_blockII_wd"],\
-            ["MK18 Black","rhs_weap_mk18_KAC_bk"],\
-            ["MK18 Woodland","rhs_weap_mk18_wd"],\
-            ["M27 IAR","rhs_weap_m27iar"]
+            ["HK416 Woodland","SMA_HK416afgOD"],\
+            ["M4A1 Black","SMA_M4afg"],\
+            ["M4A1 Woodland","SMA_M4afg_OD"],\
+            ["MK18 Black","SMA_MK18afg"],\
+            ["MK18 Woodland","SMA_MK18afgOD"]
             
 #define INF_STD_D_O ["HOLO Desert","optic_Holosight"],\
             ["HOLO Black","optic_Holosight_blk_F"],\
@@ -46,20 +41,15 @@
             ["ACOG Woodland","rhsusf_acc_ACOG_wd"]
             
 #define INF_GND_D_W ["HK416 Black","160_weap_inf_gl"],\
-            ["HK416 Desert","arifle_SPAR_01_GL_snd_F"],\
-            ["M16A4 Black","rhs_weap_m16a4_carryhandle_M203"],\
-            ["M4 M320 Black","rhs_weap_m4_m320"],\
-            ["M4A1 M203 Black","rhs_weap_m4a1_carryhandle_m203S"],\
-            ["M4A1 M203 Desert","rhs_weap_m4a1_blockII_M203_d"],\
-            ["MK18 Black","rhs_weap_mk18_m320"]
+            ["M4 M320 Black","SMA_M4_GL"],\
+            ["MK18 Black","SMA_MK18_GL"],\
+            ["MK18 Desert","SMA_MK18TAN_GL"]
             
 #define INF_GND_W_W ["HK416 Black","160_weap_inf_gl"],\
-            ["HK416 Woodland","arifle_SPAR_01_GL_khk_F"],\
-            ["M16A4 Black","rhs_weap_m16a4_carryhandle_M203"],\
-            ["M4 M320 Black","rhs_weap_m4_m320"],\
-            ["M4A1 M203 Black","rhs_weap_m4a1_carryhandle_m203S"],\
-            ["M4A1 M203 Woodland","rhs_weap_m4a1_blockII_M203_wd"],\
-            ["MK18 Black","rhs_weap_mk18_m320"]
+            ["HK416 Woodland","SMA_HK416GLOD"],\
+            ["M4 Black","SMA_M4_GL"],\
+            ["MK18 Woodland","SMA_MK18OD_GL"],\
+            ["MK18 Black","SMA_MK18BLK_GL"]
             
 #define INF_249_W ["M249 SPW","160_weap_inf_AR1"]
 
