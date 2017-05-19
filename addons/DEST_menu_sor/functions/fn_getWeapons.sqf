@@ -386,6 +386,27 @@ switch (_class) do {
             INF_STD_W_O
         ];
     };
+    
+    //air
+    case "SOR_ParaJumper_W": {
+        _retW = [
+            INF_STD_W_W
+        ];
+        
+        _retO = [
+            INF_STD_W_O
+        ];
+    };
+    
+    case "SOR_ParaJumper_D": {
+        _retW = [
+            INF_STD_D_W
+        ];
+        
+        _retO = [
+            INF_STD_D_O
+        ];
+    };
 };
 
 switch (_type) do {
