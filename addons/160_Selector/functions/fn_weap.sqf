@@ -1,4 +1,7 @@
-
+/*
+    Author: destruktoid
+    Description: Opens weapon select menu and updates fields
+*/
 disableserialization;
 
 _idd = 63002;

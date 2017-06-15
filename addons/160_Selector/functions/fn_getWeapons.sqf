@@ -1,3 +1,7 @@
+/*
+    Author: destruktoid
+    Description: Define loadouts for unit classes
+*/
 #include "sel_macros.hpp"
 _class = _this select 0;
 _type = _this select 1;

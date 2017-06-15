@@ -1,3 +1,8 @@
+/*
+    Author: destruktoid
+    Description: Applies changes made using the selector
+*/
+
 disableSerialization;
 
 _idd = 63002;

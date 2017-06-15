@@ -1,6 +1,6 @@
 class CfgPatches
 {
-    class DEST_menu_sor
+    class 160_Selector
     {
         author = "destruktoid";
         units[] = {"DEST_moduleBase","DEST_loadoutNVG","DEST_loadoutSup"};
@@ -19,7 +19,7 @@ class CfgFunctions
         tag = "DEST";
         class main
         {
-            file = "DEST_menu_sor\functions";
+            file = "160_Selector\functions";
             class weap {};
             class getWeapons {};
             class updateSel {};
@@ -27,7 +27,7 @@ class CfgFunctions
         
         class util
         {
-            file = "DEST_menu_sor\functions";
+            file = "160_Selector\functions";
             class fake {};
         };
     };
