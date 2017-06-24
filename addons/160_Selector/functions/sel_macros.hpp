@@ -59,4 +59,5 @@
             ["CCO","rhsusf_acc_compm4"],\
             ["ACO Red","optic_Aco"],\
             ["ACO Green","optic_ACO_grn"],\
-            ["HOLO Black","optic_Holosight_blk_F"]
+            ["HOLO Black","optic_Holosight_blk_F"],\
+            ["ARCO Black","optic_Arco_blk_F"]
