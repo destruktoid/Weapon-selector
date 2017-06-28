@@ -37,11 +37,9 @@ if (((_selOptic) find ((primaryweaponitems player) select 2)) in [-1,0]) then {
 };
 
 if (cbChecked _nvgCheck) then {
-    player additem "NVGoggles";
-    player assignItem "NVGoggles";
+    player linkItem "NVGoggles";
 } else {
-    player unassignItem "NVGoggles";
-    player removeItem "NVGoggles";
+    player unLinkItem "NVGoggles";
 };
 
 if (cbChecked _slcrCheck) then {
