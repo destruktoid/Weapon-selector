@@ -66,12 +66,12 @@
             ["MK18 Woodland","SMA_MK18OD_GL"],\
             ["MK18 Black","SMA_MK18BLK_GL"]
             
-#define INF_249_W ["Maximi Long Black","sma_minimi_mk3_762tlb"],\
+#define INF_AR_D ["Maximi Long Black","160_weap_inf_AR1"],\
 			["Maximi Short Black","sma_minimi_mk3_762tsb"],\
 			["Maximi Long Desert","sma_minimi_mk3_762tlb_des"],\
 			["Maximi Short Desert","sma_minimi_mk3_762tsb_des"]
 			
-#define INF_240_W ["Maximi Long Black","sma_minimi_mk3_762tlb"],\
+#define INF_AR_W ["Maximi Long Black","160_weap_inf_AR1"],\
 			["Maximi Short Black","sma_minimi_mk3_762tsb"],\
 			["Maximi Long Woodland","sma_minimi_mk3_762tlb_wdl"],\
 			["Maximi Short Woodland","sma_minimi_mk3_762tsb_wdl"]

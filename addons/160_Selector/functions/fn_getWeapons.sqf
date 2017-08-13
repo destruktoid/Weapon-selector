@@ -52,7 +52,7 @@ switch (_class) do {
         
     case "SOR_M249AR_D": {
         _retW = [
-            INF_249_W
+            INF_AR_D
         ];
         
         _retO = [
@@ -72,7 +72,7 @@ switch (_class) do {
     
     case "SOR_M240AR_D": {
         _retW = [
-            INF_240_W
+            INF_AR_D
         ];
         
         _retO = [
@@ -172,7 +172,7 @@ switch (_class) do {
         
     case "SOR_M249AR_W": {
         _retW = [
-            INF_249_W
+            INF_AR_W
         ];
         
         _retO = [
@@ -192,7 +192,7 @@ switch (_class) do {
     
     case "SOR_M240AR_W": {
         _retW = [
-            INF_240_W
+            INF_AR_W
         ];
         
         _retO = [
