@@ -17,19 +17,14 @@ class CfgFunctions
     class DEST
     {
         tag = "DEST";
-        class main
+        class selector
         {
             file = "160_Selector\functions";
             class weap {};
             class getWeapons {};
             class updateSel {};
-        };
-        
-        class util
-        {
-            file = "160_Selector\functions";
             class fake {};
-        };
+        };   
     };
 };
 
