@@ -1,5 +1,3 @@
 # Weapon-selector
 
-
-Ingame menu for changing weapons and optics within game master drfined areas.
-
+Ingame menu for changing weapons and optics within game master defined areas.
