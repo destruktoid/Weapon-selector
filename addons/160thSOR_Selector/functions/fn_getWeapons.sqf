@@ -411,6 +411,129 @@ switch (_class) do {
             INF_STD_D_O
         ];
     };
+    
+    //viper
+    case "SOR_ReconLeader_W": {
+        _retW = [
+            INF_STD_W_W
+        ];
+        
+        _retO = [
+            INF_STD_W_O
+        ];
+    };
+    
+    case "SOR_ReconLeader_D": {
+        _retW = [
+            INF_STD_D_W
+        ];
+        
+        _retO = [
+            INF_STD_D_O
+        ];
+    };
+    
+    case "SOR_ReconJTAC_W": {
+        _retW = [
+            INF_MRK_D_W
+        ];
+        
+        _retO = [
+            INF_STD_W_O,
+            INF_MRK_D_O
+        ];
+    };
+    
+    case "SOR_ReconJTAC_D": {
+        _retW = [
+            INF_MRK_D_W
+        ];
+        
+        _retO = [
+            INF_STD_D_O,
+            INF_MRK_D_O
+        ];
+    };
+    
+    case "SOR_ReconRifleman_W": {
+        _retW = [
+            INF_STD_W_W
+        ];
+        
+        _retO = [
+            INF_STD_W_O
+        ];
+    };
+    
+    case "SOR_ReconRifleman_D": {
+        _retW = [
+            INF_STD_D_W
+        ];
+        
+        _retO = [
+            INF_STD_D_O
+        ];
+    };
+    
+    case "SOR_Recon_M249AR_W": {
+        _retW = [
+            INF_STD_W_W
+        ];
+        
+        _retO = [
+            INF_STD_W_O
+        ];
+    };
+    
+    case "SOR_Recon_M249AR_D": {
+        _retW = [
+            INF_STD_D_W
+        ];
+        
+        _retO = [
+            INF_STD_D_O
+        ];
+    };
+    
+    case "SOR_ReconGrenadier_W": {
+        _retW = [
+            INF_STD_W_W
+        ];
+        
+        _retO = [
+            INF_STD_W_O
+        ];
+    };
+    
+    case "SOR_ReconGrenadier_D": {
+        _retW = [
+            INF_STD_D_W
+        ];
+        
+        _retO = [
+            INF_STD_D_O
+        ];
+    };
+    
+    case "SOR_Marksman_W": {
+        _retW = [
+            INF_STD_W_W
+        ];
+        
+        _retO = [
+            INF_STD_W_O
+        ];
+    };
+    
+    case "SOR_Marksman_D": {
+        _retW = [
+            INF_STD_D_W
+        ];
+        
+        _retO = [
+            INF_STD_D_O
+        ];
+    };
 };
 
 switch (_type) do {

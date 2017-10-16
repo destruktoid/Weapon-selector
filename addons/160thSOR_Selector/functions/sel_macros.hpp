@@ -3,6 +3,7 @@
 #define INF_STD_D_W ["HK416 Black","160_weap_inf_std"],\
             ["M4 Black","SMA_M4afg"],\
             ["M4 Desert","SMA_M4afg_Tan"],\
+            ["M4A1 BlockII Black","rhs_weap_m4a1_blockII"],\
 			["SCAR L Desert","SMA_MK16"],\
 			["SCAR L Black","SMA_MK16_black"],\
 			["ACR Black","SMA_ACRREMMOEblk_N"],\
@@ -14,6 +15,7 @@
             ["HK416 Woodland","SMA_HK416afgOD"],\
             ["M4A1 Black","SMA_M4afg"],\
             ["M4A1 Woodland","SMA_M4afg_OD"],\
+            ["M4A1 BlockII Black","rhs_weap_m4a1_blockII"],\
 			["SCAR L Black","SMA_MK16_black"],\
 			["ACR Black","SMA_ACRREMMOEblk_N"],\
             ["MK18 Black","SMA_MK18afg"],\
@@ -84,3 +86,9 @@
             ["HOLO Black","optic_Holosight_blk_F"],\
 			["ARCO Desert","optic_Arco"],\
             ["ARCO Black","optic_Arco_blk_F"]
+            
+#define INF_MRK_D_W ["SCAR H Desert","160_weap_inf_recon_mark"]
+
+#define INF_MRK_D_O ["ELCAN SpecterDR Tan","SMA_ELCAN_SPECTER_TAN_ARDRDS"]
+
+

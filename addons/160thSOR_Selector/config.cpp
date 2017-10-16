@@ -1,6 +1,6 @@
 class CfgPatches
 {
-    class 160_Selector
+    class 160thSOR_Selector
     {
         author = "destruktoid";
         units[] = {"DEST_moduleBase","DEST_loadoutNVG","DEST_loadoutSup","DEST_loadoutArea"};
@@ -19,7 +19,7 @@ class CfgFunctions
         tag = "DEST";
         class selector
         {
-            file = "160_Selector\functions";
+            file = "160thSOR_Selector\functions";
             class weap {};
             class getWeapons {};
             class updateSel {};
