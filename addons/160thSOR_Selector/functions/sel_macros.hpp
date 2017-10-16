@@ -78,6 +78,7 @@
 
 #define INF_AR_O ["HOLO Sand","optic_Holosight"],\
             ["CCO","rhsusf_acc_compm4"],\
+            ["RDS Black","SMA_BARSKA"],\
             ["ACO Red","optic_Aco"],\
             ["ACO Green","optic_ACO_grn"],\
             ["HOLO Black","optic_Holosight_blk_F"],\
