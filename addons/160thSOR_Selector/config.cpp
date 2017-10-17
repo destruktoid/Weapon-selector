@@ -21,7 +21,6 @@ class CfgFunctions
         {
             file = "160thSOR_Selector\functions";
             class weap {};
-            class getWeapons {};
             class updateSel {};
             class fake {};
         };   
@@ -100,3 +99,5 @@ class CfgVehicles
         };
     };
 };
+
+#include "config_selector.hpp"

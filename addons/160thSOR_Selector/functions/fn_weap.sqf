@@ -4,6 +4,8 @@
 */
 disableserialization;
 
+private["_cfg","_weapons","_optics"];
+
 _idd = 63002;
 createDialog "DEST_MENU_WEAP";
 
@@ -13,24 +15,48 @@ _nvgCheck = (findDisplay _idd) displayCtrl 630023;
 _slcrCheck = (findDisplay _idd) displayCtrl 630024;
 _lsrpCheck = (findDisplay _idd) displayCtrl 630025;
 
-_weapons = [(typeOf player),"w"] call DEST_fnc_getWeapons;
-_optics = [(typeOf player),"o"] call DEST_fnc_getWeapons;
+_cfg = false;
+_weapons = [];
+_optics = [];
 
 {
-    _index = _weaponCombo lbAdd (_x select 0);
-    _weaponCombo lbSetData [_index, (_x select 1)];
-    if (((_x select 1) find (primaryWeapon player)) != -1) then {
-        _weaponCombo lbSetCurSel _index;
+    _units = getArray (configFile >> "SOR_SelectorUnits" >> _x >> "units");
+    if ((typeOf player) in _units) then {
+        _cfg = _x;
     };
-} foreach _weapons;
+} foreach ((configFile >> "SOR_SelectorUnits") call bis_fnc_getCfgSubClasses);
 
-{
-    _index = _opticCombo lbAdd (_x select 0);
-    _opticCombo lbSetData [_index, (_x select 1)];
-    if (((_x select 1) find ((primaryweaponitems player) select 2)) != -1) then {
-        _opticCombo lbSetCurSel _index;
-    };
-} foreach _optics;
+if ((typeName _cfg) isEqualTo "STRING") then {
+
+    {
+        {
+            _weapons pushBack (_x splitstring ",");
+        } foreach getArray (configFile >> "SOR_SelectorWeapons" >> _x >> "weapons");
+    } foreach getArray (configFile >> "SOR_SelectorUnits" >> _cfg >> "weapons");
+    
+    {
+        {
+            _optics pushBack (_x splitstring ",");
+        } foreach getArray (configFile >> "SOR_SelectorOptics" >> _x >> "optics");
+    } foreach getArray (configFile >> "SOR_SelectorUnits" >> _cfg >> "optics");
+
+    {
+        _index = _weaponCombo lbAdd (_x select 0);
+        _weaponCombo lbSetData [_index, (_x select 1)];
+        if (((_x select 1) find (primaryWeapon player)) != -1) then {
+            _weaponCombo lbSetCurSel _index;
+        };
+    } foreach _weapons;
+
+    {
+        _index = _opticCombo lbAdd (_x select 0);
+        _opticCombo lbSetData [_index, (_x select 1)];
+        if (((_x select 1) find ((primaryweaponitems player) select 2)) != -1) then {
+            _opticCombo lbSetCurSel _index;
+        };
+    } foreach _optics;
+
+};
 
 if (count (entities "DEST_loadoutSup") > 0) then {
     _slcrCheck ctrlEnable false;
