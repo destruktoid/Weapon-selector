@@ -84,7 +84,11 @@ class SOR_SelectorWeapons {
 class SOR_SelectorOptics {
     class Standard_Black{
         optics[] = {
-            "HOLO Black,optic_Holosight_blk_F",
+            "EXPS2 Black,SMA_eotech",
+            "XPS3,rhsusf_acc_eotech_xps3",
+            "Vortex Spitfire,sma_spitfire_O1_black",
+            "MICRO T2 H,SMA_MICRO_T2",
+            "MICRO T2 L,SMA_MICRO_T2_LM",
             "RCO,optic_Hamr",
             "MRCO,optic_MRCO",
             "CCO,rhsusf_acc_compm4",
@@ -99,7 +103,7 @@ class SOR_SelectorOptics {
     
     class Standard_Desert{
         optics[] = {
-            "HOLO Desert,rhsusf_acc_eotech_552_d",
+            "EXPS2 Tan,SMA_eotech_T",
             "ACO Woodland,SMA_CMOREGRN",
             "ERCO Desert,optic_ERCO_snd_F",
             "ACOG Desert,rhsusf_acc_ACOG_d"
@@ -108,7 +112,7 @@ class SOR_SelectorOptics {
     
     class Standard_Wood{
         optics[] = {
-            "HOLO Woodland,SMA_eotech_G",
+            "EXPS2 OD,SMA_eotech_G",
             "ACO Woodland,SMA_CMOREGRN",
             "ERCO Woodland,optic_ERCO_khk_F",
             "ACOG Woodland,rhsusf_acc_ACOG_wd"
@@ -117,18 +121,22 @@ class SOR_SelectorOptics {
     
     class Autorifle_Black{
         optics[] = {
+            "EXPS2 Black,SMA_eotech",
+            "XPS3,rhsusf_acc_eotech_xps3",
+            "Vortex Spitfire,sma_spitfire_O1_black",
+            "MICRO T2 H,SMA_MICRO_T2",
+            "MICRO T2 L,SMA_MICRO_T2_LM",
             "CCO,rhsusf_acc_compm4",
             "RDS Black,SMA_BARSKA",
             "ACO Red,optic_Aco",
             "ACO Green,optic_ACO_grn",
-            "HOLO Black,optic_Holosight_blk_F",
             "ARCO Black,optic_Arco_blk_F"
         };
     };
     
     class Autorifle_Desert{
         optics[] = {
-            "HOLO Sand,optic_Holosight",
+            "EXPS2 Tan,SMA_eotech_T",
             "ARCO Desert,optic_Arco"
         };
     };
