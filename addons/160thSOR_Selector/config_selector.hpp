@@ -86,7 +86,7 @@ class SOR_SelectorOptics {
         optics[] = {
             "EXPS2 Black,SMA_eotech",
             "XPS3,rhsusf_acc_eotech_xps3",
-            "Vortex Spitfire,sma_spitfire_O1_black",
+            "Vortex Spitfire,sma_spitfire_01_black",
             "MICRO T2 H,SMA_MICRO_T2",
             "MICRO T2 L,SMA_MICRO_T2_LM",
             "RCO,optic_Hamr",
