@@ -7,7 +7,10 @@ class SOR_SelectorWeapons {
             "M4A1 BlockII Black,rhs_weap_m4a1_blockII",
             "SCAR L Black,SMA_MK16_black",
             "ACR Black,SMA_ACRREMMOEblk_N",
-            "MK18 Black,SMA_MK18afg"
+            "MK18 Black,SMA_MK18afg",
+            "AUG CQC(Black),SMA_AUG_A3_F",
+            "M16A4 (Carryhandle),rhs_weap_m16a4_carryhandle",
+            "M4A1 BlockII(SOPMOD Stock),rhs_weap_m4a1_blockII_KAC"
         };
     };
     
@@ -16,7 +19,8 @@ class SOR_SelectorWeapons {
             "M4 Desert,SMA_M4afg_Tan",
             "SCAR L Desert,SMA_MK16",
             "ACR Desert,SMA_ACRREMMOE_N",
-            "MK18 Desert,SMA_MK18afgTAN"
+            "MK18 Desert,SMA_MK18afgTAN",
+            "AUG CQC(Desert),SMA_AUG_A3_KRYPT_F"
         };
     };
     
@@ -24,7 +28,8 @@ class SOR_SelectorWeapons {
         weapons[] = {
             "MK18 Woodland,SMA_MK18afgOD",
             "M4A1 Woodland,SMA_M4afg_OD",
-            "HK416 Woodland,SMA_HK416afgOD"
+            "HK416 Woodland,SMA_HK416afgOD",
+            "AUG CQC(Olive),SMA_AUG_A3_MCAM_F"
         };
     };
     
@@ -34,7 +39,9 @@ class SOR_SelectorWeapons {
             "M4 Black,SMA_M4_GL",
             "SCAR L Black,SMA_Mk16_EGLM_black",
             "ACR Black,SMA_ACRREMGL_B_N",
-            "MK18 Black,SMA_MK18BLK_GL"
+            "MK18 Black,SMA_MK18BLK_GL",
+            "M16A4 (Carryhandle/M203),rhs_weap_m16a4_carryhandle_M203",
+            "AUG CQC blk(GL),SMA_AUG_EGLM"
         };
     };
     
@@ -42,14 +49,16 @@ class SOR_SelectorWeapons {
         weapons[] = {
             "SCAR L Desert,SMA_Mk16_EGLM",
             "ACR Desert,SMA_ACRREMGL_N",
-            "MK18 Desert,SMA_MK18TAN_GL"
+            "MK18 Desert,SMA_MK18TAN_GL",
+            "AUG CQC Tan(GL),SMA_AUG_EGLM_tan"
         };
     };
     
     class Grenadier_Wood{
         weapons[] = {
             "HK416 Woodland,SMA_HK416GLOD",
-            "MK18 Woodland,SMA_MK18OD_GL"
+            "MK18 Woodland,SMA_MK18OD_GL",
+            "AUG CQC olive(GL),SMA_AUG_EGLM_Olive"
         };
     };
     
@@ -97,7 +106,9 @@ class SOR_SelectorOptics {
             "ERCO Black,optic_ERCO_blk_F", 
             "ARCO Black,optic_Arco_blk_F",
             "ACOG,rhsusf_acc_ACOG_USMC",
-            "ACOG ACO Black,rhsusf_acc_ACOG_RMR"
+            "ACOG ACO Black,rhsusf_acc_ACOG_RMR",
+            "ELCAN SpecterDR DFOV14-C1 RDS,SMA_ELCAN_SPECTER_RDS",
+            "EOTech 552+3x Magnifiner,SMA_eotech552_3XDOWN"
         };
     };
     
@@ -106,7 +117,9 @@ class SOR_SelectorOptics {
             "EXPS2 Tan,SMA_eotech_T",
             "ACO Woodland,SMA_CMOREGRN",
             "ERCO Desert,optic_ERCO_snd_F",
-            "ACOG Desert,rhsusf_acc_ACOG_d"
+            "ACOG Desert,rhsusf_acc_ACOG_d",
+            "ELCAN SpecterDR DFOV14-C1(TAN) RDS,SMA_ELCAN_SPECTER_TAN_RDS",
+            "EOTech 552+3x Magnifiner(Desert),SMA_eotech552_3XDOWN_des"
         };
     };
     
@@ -115,7 +128,9 @@ class SOR_SelectorOptics {
             "EXPS2 OD,SMA_eotech_G",
             "ACO Woodland,SMA_CMOREGRN",
             "ERCO Woodland,optic_ERCO_khk_F",
-            "ACOG Woodland,rhsusf_acc_ACOG_wd"
+            "ACOG Woodland,rhsusf_acc_ACOG_wd",
+            "EOTech 552+3x Magnifiner(Woodland),SMA_eotech552_3XDOWN_wdl",
+            "ELCAN SpecterDR DFOV14-C1(FDE) RDS,SMA_ELCAN_SPECTER_GREEN_RDS"
         };
     };
     
@@ -130,14 +145,17 @@ class SOR_SelectorOptics {
             "RDS Black,SMA_BARSKA",
             "ACO Red,optic_Aco",
             "ACO Green,optic_ACO_grn",
-            "ARCO Black,optic_Arco_blk_F"
+            "ARCO Black,optic_Arco_blk_F",
+            "ELCAN SpecterDR DFOV14-C1 RDS,SMA_ELCAN_SPECTER_RDS",
+            "EOTech 552+3x Magnifiner,SMA_eotech552_3XDOWN"
         };
     };
     
     class Autorifle_Desert{
         optics[] = {
             "EXPS2 Tan,SMA_eotech_T",
-            "ARCO Desert,optic_Arco"
+            "ARCO Desert,optic_Arco",
+            "ELCAN SpecterDR DFOV14-C1(TAN) RDS,SMA_ELCAN_SPECTER_TAN_RDS"
         };
     };
     
@@ -150,13 +168,13 @@ class SOR_SelectorOptics {
 
 class SOR_SelectorUnits {
     class Inf_Standard_Desert {
-        units[] = {"SOR_Actual_D","SOR_Medic_D","SOR_Rifleman_D","SOR_Rifleman_ammo_D","SOR_Commander_D","SOR_HMedic_D","SOR_Teamleader2_D","SOR_Teamleader_D","SOR_ParaJumper_D","SOR_ReconLeader_D","SOR_ReconRifleman_D","SOR_Marksman_D","SOR_Engineer_Teamleader_D","SOR_Engineer_D"};
+        units[] = {"SOR_Actual_D","SOR_Medic_D","SOR_Rifleman_D","SOR_Rifleman_ammo_D","SOR_Commander_D","SOR_HMedic_D","SOR_Teamleader2_D","SOR_Teamleader_D","SOR_ParaJumper_D","SOR_ReconLeader_D","SOR_ReconRifleman_D","SOR_Marksman_D","SOR_Engineer_Teamleader_D","SOR_Engineer_D","SOR_ZeusCommand_D","SOR_MechCommand_D","SOR_MechCrewCommander_D","SOR_MechDriver_D","SOR_MechCrew_D","SOR_MechOperator_D","SOR_HeliCrew_D"};
         weapons[] = {"Standard_Black","Standard_Desert"};
         optics[] = {"Standard_Black","Standard_Desert"};
     };
     
     class Inf_Standard_Wood {
-        units[] = {"SOR_Actual_W","SOR_Medic_W","SOR_Rifleman_W","SOR_Rifleman_ammo_W","SOR_Commander_W","SOR_HMedic_W","SOR_Teamleader2_W","SOR_Teamleader_W","SOR_ParaJumper_W","SOR_ReconLeader_W","SOR_ReconRifleman_W","SOR_Marksman_W","SOR_Engineer_Teamleader_W","SOR_Engineer_W"};
+        units[] = {"SOR_Actual_W","SOR_Medic_W","SOR_Rifleman_W","SOR_Rifleman_ammo_W","SOR_Commander_W","SOR_HMedic_W","SOR_Teamleader2_W","SOR_Teamleader_W","SOR_ParaJumper_W","SOR_ReconLeader_W","SOR_ReconRifleman_W","SOR_Marksman_W","SOR_Engineer_Teamleader_W","SOR_Engineer_W","SOR_ZeusCommand_W","SOR_MechCommand_W","SOR_MechCrewCommander_W","SOR_MechDriver_W","SOR_MechCrew_W","SOR_MechOperator_W","SOR_HeliCrew_W"};
         weapons[] = {"Standard_Black","Standard_Wood"};
         optics[] = {"Standard_Black","Standard_Wood"};
     };
